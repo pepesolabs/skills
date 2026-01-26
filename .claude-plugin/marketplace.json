@@ -1,0 +1,23 @@
+{
+    "name": "pepeso-agent-skills",
+    "owner": {
+        "name": "pepesolabs",
+        "email": "hi@pepeso.com"
+    },
+    "metadata": {
+        "description": "A collection of handy AI agent skills for developers",
+        "version": "1.0.0"
+    },
+    "plugins": [
+        {
+            "name": "productivity-skills",
+            "description": "Skills for repository analysis and UI replication",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/repo-intelligence",
+                "./skills/ui-style-replicator"
+            ]
+        }
+    ]
+}
